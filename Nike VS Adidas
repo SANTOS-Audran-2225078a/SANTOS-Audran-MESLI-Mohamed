@@ -10,6 +10,8 @@
      <link rel="shortcut icon" href="logo html.jpg">
 </head>
 <body>
+<body style="background-color:hsl(0,100%,50%);">
+</body>
      <section>
           <div>
                <h2>  bienvenue sur TaMarkPref: le site qui te raconte l'histoire de ta marque preferer</h2>
