@@ -8,10 +8,32 @@
      <titsle>tamarkmref.com</title>
      <!-- icone de l onglet -->
      <link rel="shortcut icon" href="logo html.jpg">
+     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<body style="background-color:hsl(0,100%,50%);">
-</body>
+    <nav>
+        <ul>
+            <li class="menu-deroulant">
+                <a href="#">Services</a>
+                <ul class="sous-menu">
+                    <li><a href="#">Découvrir</a></li>
+                    <li><a href="#">Panier</a></li>
+                    <li><a href="#">Acheter</a></li>
+                </ul>
+            </li>
+            <li class="menu-deroulant">
+                <a href="#">Les tendances</a>
+                <ul class="sous-menu">
+                    <li><a href="#">Yeezy</a></li>
+                    <li><a href="#">Stan Smith</a></li>
+                </ul>
+            </li>
+            <li><a href="#">A propos</a></li>
+            <li><a href="#">Contactez-nous</a></li>
+        </ul>
+    </nav>
+     <body style="background-color:#CD5C5C;">
+     </body>
      <section>
           <div>
                <h2>  bienvenue sur TaMarkPref: le site qui te raconte l'histoire de ta marque preferer</h2>
