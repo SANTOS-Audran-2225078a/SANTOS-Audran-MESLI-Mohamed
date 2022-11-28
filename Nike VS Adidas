@@ -349,49 +349,44 @@
        <a href="#haut"><img src="https://cdn.create.vista.com/api/media/small/471142024/stock-vector-arrow-circle-blue-gradient-vector"/></a>
 
 <!--Formulaire-->
-
-<form action="/ma-page-de-traitement" method="post">
-     
-     <label for="name">Nom :</label>
-     <input type="text" id="name" name="user_name">
-
-     <label for="mail">e-mail&nbsp;:</label>
-     <input type="email" id="mail" name="user_mail">
-
-     <label for="msg">Message :</label>
-     <textarea id="msg" name="user_message"></textarea>
- 
-     
-     <input type="text" value="par défaut cet élément sera renseigné avec ce texte">
-     <textarea>par défaut cet élément sera renseigné avec ce texte</textarea>
-
-</form>
-
-<!--Fin du formulaire-->
-
-
-<!--2ème formulaire-->
 <form name="inscription" method="post" action="">
-     Civilité<br>
-     <input type="radio" name="civilite"> Mlle<br>
-     <input type="radio" name="civilite"> Mme<br>
-     <input type="radio" name="civilite"> M.<br>
-     Nom et prénom<br>
-     <input type="text" name="nom" value=""><br>
-     Email<br>
-     <input type="text" name="email" value=""><br>
-     Login<br>
-     <input type="text" name="login" value=""><br>
-     Mot de passe<br>
-     <input type="password" name="pass" value=""><br>
-     Vous être<br>
+     Nom et prénom
+     <input type="text" name="nom" value="">
+     email
+     <input type="text" name="email" value="">
+     Login
+     <input type="text" name="login" value="">
+     Mot de passe
+     <input type="password" name="pass" value="">
+     Vous être
      <select name="niv">
         <option>Etudiant</option>
         <option>Fonctionnaire</option>
         <option>Employé au secteur privé</option>
-     </select><br>
+     </select>
      <input type="button" name="envoyer" value="S'inscrire">
   </form>
-  
+<!--Fin du formulaire-->
+
+<!--Fin du formulaire-->
+
+<class="container mt-5">
+     <h1>Contact Me!</h1>
+     <form class="row g-3">
+          <class="col-md-6">
+               <label for="firstName" class="form-label">First Name</label>
+               <imput type="text" class="form-control" id="firstName" required>
+                    <class="col-md-6">
+                         <label for="lastName" class="form-label">Last Name</label>
+                         <imput type="text" class="form-control" id="Last Name" required></imput>     
+                    </class>
+               </imput>
+          </div>
+     </form>
+
+
+
+
+
      </body>
 </html> 
