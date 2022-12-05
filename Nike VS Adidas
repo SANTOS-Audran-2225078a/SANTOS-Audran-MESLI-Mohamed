@@ -13,6 +13,8 @@
 <body>
      <!-- Ancrage 1 ère partie-->
      <a id="haut"></a>
+     <!-- Fin 1 er Ancrage-->
+     <!--Les Menus-->
     <nav>
         <ul>
             <li class="menu-deroulant">
@@ -38,11 +40,14 @@
                 </ul>
             </li>
             <li><a href="#">A propos</a></li>
-            <li><a href="#">Contactez-nous</a></li>
+            <li><a href="#Formulaire">Contactez-nous</a></li> 
         </ul>
     </nav>
-     <body style="background-color:#808080;">
+
+     
+     
      </body>
+     </html>
      <section>
            
                <h2>  Bienvenue sur TaMarkPref: le site qui te raconte l'histoire de ta marque préférer !</h2>
@@ -346,7 +351,11 @@
           </p>
        
        <!--Ancrage 2ème partie-->
-       <a href="#haut"><img src="https://cdn.create.vista.com/api/media/small/471142024/stock-vector-arrow-circle-blue-gradient-vector"/></a>
+       <a href="#haut">Revenir au début </a>
+       <!--Fin 2ème Ancrage-->
+       <!--Ancrage de Contactez-nous-->
+       <a id="Formulaire"></a>
+       <!--Fin Ancrage de contactez-nous-->
 
 <!--Formulaire-->
 <form name="inscription" method="post" action="">
@@ -367,26 +376,6 @@
      <input type="button" name="envoyer" value="S'inscrire">
   </form>
 <!--Fin du formulaire-->
-
-<!--Fin du formulaire-->
-
-<class="container mt-5">
-     <h1>Contact Me!</h1>
-     <form class="row g-3">
-          <class="col-md-6">
-               <label for="firstName" class="form-label">First Name</label>
-               <imput type="text" class="form-control" id="firstName" required>
-                    <class="col-md-6">
-                         <label for="lastName" class="form-label">Last Name</label>
-                         <imput type="text" class="form-control" id="Last Name" required></imput>     
-                    </class>
-               </imput>
-          </div>
-     </form>
-
-
-
-
 
      </body>
 </html> 
