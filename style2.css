@@ -26,7 +26,7 @@ nav ul{
 
 }
 nav > ul > li{
-    background-color: white;
+    background-color: #578192;
     position: relative;
     height: 100%;
     flex: 1;
@@ -55,7 +55,7 @@ li a{
     margin-top: var(--hauteur-menu);
     width: 100%;
     text-align: left;
-    background-color: white;
+    background-color: #578192;
     border-radius: 2px;
     overflow: hidden;
     max-height: 0;
@@ -116,14 +116,7 @@ nav > ul >li:hover > a{
 /*Fin du Menu*/
 
 
-/*Style écriture des h*/
-h3 {
-    color :blue;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%; 
-}
-/*Fin style d'écriture des h*/
+
 
 
 
@@ -134,4 +127,26 @@ body{
     background-size: 100%;
 }
 
+#titre{
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+#un{
+    color :black;
+}
+#deux{
+    color: black;
+}
 
+#trois{
+    color: white;
+}
+
+#quatre{
+    color: white;
+}
+
+
+/*Fin style d'écriture des h*/
