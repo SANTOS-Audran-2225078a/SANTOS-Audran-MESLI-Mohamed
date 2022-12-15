@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    font-size: x-large;
+}
+
+h3 {
+    color : wheat ;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center
+}
+
+img{
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
