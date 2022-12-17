@@ -69,8 +69,6 @@ li a{
     display: flex;
 }
 
-
-
 nav > ul >li:hover > a{
     color: #2169ec;
 }
@@ -122,15 +120,53 @@ body{
 }
 
 
-/*Style écriture des h*/
+/*Style écriture des titres*/
 h3 {
     color : #EE82EE ;
     margin-left: auto;
     margin-right: auto;
-    text-align: center
-    
+    text-align: center;
+
+        border: 3px solid #ccc;
+        background: rgba(5, 45, 56, 0.73);
+        margin: auto;
+        padding: 15px 25px;
+      }
+h4{
+    text-decoration: underline;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
 }
-/*Fin style d'écriture des h*/
+/*Fin style d'écriture des titres*/
+
+/*Images*/
+
+img {
+        align-items: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
+        height: 300px;
+        
+    }
+
+/*Fin images*/
+
+/*Video*/
+iframe{
+        align-items: center;
+        display: block;
+        text-align: center;
+            margin-left:auto;
+            margin-right:auto;
+            
+       
+      }
+/*Fin video*/
+
 
 
 
