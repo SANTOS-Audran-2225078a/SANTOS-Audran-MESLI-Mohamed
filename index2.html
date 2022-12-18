@@ -39,7 +39,7 @@
                 </ul>
             </li>
             <li><a href="index4.html">A propos</a></li>
-            <li><a href="#Formulaire">Contactez-nous</a></li> 
+            <li><a href="#Avis">Donner un avis</a></li> 
         </ul>
     </nav>
 <!--Fin des menus-->
@@ -296,27 +296,22 @@
        <a href="#haut">Revenir au début </a>
        <!--Fin 2ème Ancrage-->
        <!--Ancrage de Contactez-nous-->
-       <a id="Formulaire"></a>
+       <a id="Avis"></a>
        <!--Fin Ancrage de contactez-nous-->
 
-<!--Formulaire-->
-<form name="inscription" method="post" action="">
-     Nom et prénom
-     <input type="text" name="nom" value="">
-     email
-     <input type="text" name="email" value="">
-     Login
-     <input type="text" name="login" value="">
-     Mot de passe
-     <input type="password" name="pass" value="">
-     Vous être
-     <select name="niv">
-        <option>Etudiant</option>
-        <option>Fonctionnaire</option>
-        <option>Employé au secteur privé</option>
-     </select>
-     <input type="button" name="envoyer" value="S'inscrire">
-  </form>
+<!--Formulaire avis-->
+
+<p class="footer-title">Avis</p>
+<form action="/" method="post" class="space-y-2">
+    <input type="text" name="g-name" class="g-inp" id="g-name" placeholder='Nom' />
+    <input type="text" name="g-name" class="g-inp" id="g-name" placeholder='Prenom' />
+    <input type="email" name="g-email" class="g-inp" id="g-email" placeholder='santos.audran@gmail.com' />
+    <textarea type="text" name="g-msg" class="g-inp h-40 resize-none" id="g-msg"
+        placeholder='Avis...'></textarea>
+    <button type="submit" class='f-btn'>Envoyer</button>
+</form>
+
+
 <!--Fin du formulaire-->
 
      </body>
