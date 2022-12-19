@@ -12,7 +12,7 @@
 </head>
 <body>
      <!--Les Menus-->
-    <nav>
+    
         <ul>
             <li class="menu-deroulant">
                 <a href="#">Découvrir</a>
@@ -28,7 +28,7 @@
                 </ul>
             </li>
             <li><a href="index4.html">A propos</a></li>
-    </nav>
+    
     <!--Fin des Menus-->
 
     <section id="titre">
