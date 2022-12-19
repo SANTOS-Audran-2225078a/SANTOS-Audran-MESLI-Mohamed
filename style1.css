@@ -2,12 +2,12 @@
 :root{
     --hauteur-menu: 60px;
 }
-*{
+section{
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
 }
-nav{
+section{
     width: 100%;
     font-size: 18px;
     position: sticky;
@@ -15,24 +15,24 @@ nav{
 
 }
 
-nav > ul{
+section > ul{
     display: flex;
     text-align: center;
     box-shadow: 0px 1px 2px 1px rgba(0,0,0,0,.3);
     height: var(--hauteur-menu);
 }
-nav ul{
+section ul{
     list-style-type: none;
 
 }
-nav > ul > li{
+section > ul > li{
     background-color: #578192;
     position: relative;
     height: 100%;
     flex: 1;
 }
 
-nav > ul > li > a{
+section > ul > li > a{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -74,7 +74,7 @@ li a{
 
 
 
-nav > ul >li:hover > a{
+section > ul >li:hover > a{
     color: #2169ec;
 }
 
